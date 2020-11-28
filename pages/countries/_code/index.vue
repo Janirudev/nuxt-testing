@@ -25,10 +25,9 @@
     <div>Region: {{ country.region }}</div>
     <div>Subregion: {{ country.subregion }}</div>
     <div>Population: {{ country.population }}</div>
-    <div></div>
+    <div>Location: {{ country.latlng }}</div>
     <div></div>
 
-    {{ country.latlng }}
     {{ country.demonym }}
     {{ country.area }}
     {{ country.gini }}
